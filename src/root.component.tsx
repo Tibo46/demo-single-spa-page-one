@@ -1,5 +1,6 @@
-import React from "react";
+import React from 'react';
+import FirstPage from './FirstPage';
 
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return <FirstPage />;
 }
